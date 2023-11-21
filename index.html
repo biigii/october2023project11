@@ -15,54 +15,76 @@
   </head>
   <body>
 
-    <form >
-      <input type="file">
-      <!-- <textarea name="comments" cols="50" rows="10"></textarea> -->
-      <textarea name="comments"></textarea>
-      <input type="radio" name="day" value="fri" checked>friday
-      <!-- input[type="radio"]*2 -->
-      <input type="radio" name="day" value="sat">saturday
-      <input type="radio" name="day" value="sun">sunday
-      <!-- day=sun -->
-      <hr>
-      <!-- input[type=checkbox]*3 -->
-      <input type="checkbox" name="day"> friday
-      <input type="checkbox" name="day" checked>saturday
-      <input type="checkbox" name="day">sunday
+    <!-- <header>
+      <nav>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </nav>
+    </header> -->
 
-      <select name="fruit">
-        <option value="">-</option>
-        <option value="apple" >apple</option>
-        <option value="orange">orange</option>
-        <option value="kiwi" selected>kiwi</option>
-        <!-- fruit=kiwi -->
-      </select>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="">home</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <input type="submit" value="Go">
-      <button name="submit">
-        <strong>send us a message</strong>
-      </button>
-    </form>
+  <form class="form">
 
-    <form>
-      <input type="text" name="myword">
-      <!--  myword=hello world -->
-      <input type="email" name="email">
-      <!-- email=email@email.com -->
-      <input type="password">
-      <input type="color" value="#00ff00">
-      <input type="range" step="3" min="10" max="100">
-      <input type="time">
-      <input type="date">
-      <input type="month">
-      <input type="search">
-      <input type="url">
-      <input type="datetime-local">
-      <input type="number">
+    <label for="name">username</label>
+    <input id="name" type="text" placeholder="username">
+
+    <label for="pass">password</label>
+    <input id="pass" type="password" placeholder="password">
+
+    <label>phone
       <input type="tel">
-      <input type="week" name="">
-    </form>
+    </label>
 
+    <textarea></textarea>
+
+    <input type="submit" value="send us a message">
+  </form>
+
+  <!-- list -->
+
+  <ol>
+    <li>apple</li>
+    <li>orange</li>
+    <li>kiwi</li>
+    <li>watermelon</li>
+  </ol>
+
+  <ul class="list">
+    <li>apple</li>
+    <li>orange</li>
+    <li>kiwi</li>
+    <li>watermelon</li>
+  </ul>
+
+  <p>apple</p>
+  <p>orange</p>
+  <p>kiwi</p>
+  <p>watermelon</p>
+
+  <figure>
+    <ul>
+      <li><img src="https://picsum.photos/201" alt=""></li>
+      <li><img src="https://picsum.photos/202" alt=""></li>
+      <li><img src="https://picsum.photos/203" alt=""></li>
+      <li><img src="https://picsum.photos/204" alt=""></li>
+      <li><img src="https://picsum.photos/205" alt=""></li>
+      <li><img src="https://picsum.photos/206" alt=""></li>
+      <li><img src="https://picsum.photos/207" alt=""></li>
+      <li><img src="https://picsum.photos/208" alt=""></li>
+      <li><img src="https://picsum.photos/209" alt=""></li>
+      <li><img src="https://picsum.photos/2010" alt=""></li>
+    </ul>
+  </figure>
 
   </body>
 
